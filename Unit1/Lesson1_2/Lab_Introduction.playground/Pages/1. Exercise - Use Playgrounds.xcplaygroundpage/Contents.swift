@@ -10,14 +10,14 @@ print("How to use playgrounds to make writing Swift fun and simple")
 /*:
  Now print your own phrases to the console. Pick one of your favorite songs. Use your knowledge of the `print` function to display the song title and artist.
  */
-
+print("Where is the love? By Black Eyed Peas")
 
 /*:
  Use multiple `print` functions to write out some of the lyrics to the song.
  */
-
-
-
+print("Whats wrong with the world, Mama?")
+print("People living like they aint got no mamas.")
+print("I think the whold world is addicted to the drama.")
 /*:
 
  _Copyright © 2023 Apple Inc._
