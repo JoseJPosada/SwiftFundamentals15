@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		392CA4B02D57C5E100581970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392CA4912D57C5DF00581970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392CA4982D57C5DF00581970;
+			remoteInfo = Light_JosePosada;
+		};
+		392CA4BA2D57C5E100581970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392CA4912D57C5DF00581970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392CA4982D57C5DF00581970;
+			remoteInfo = Light_JosePosada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		392CA4992D57C5DF00581970 /* Light_JosePosada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Light_JosePosada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		392CA4AF2D57C5E100581970 /* Light_JosePosadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Light_JosePosadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392CA4B92D57C5E100581970 /* Light_JosePosadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Light_JosePosadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		392CA4C12D57C5E100581970 /* Exceptions for "Light_JosePosada" folder in "Light_JosePosada" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 392CA4982D57C5DF00581970 /* Light_JosePosada */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		392CA49B2D57C5DF00581970 /* Light_JosePosada */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				392CA4C12D57C5E100581970 /* Exceptions for "Light_JosePosada" folder in "Light_JosePosada" target */,
+			);
+			path = Light_JosePosada;
+			sourceTree = "<group>";
+		};
+		392CA4B22D57C5E100581970 /* Light_JosePosadaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Light_JosePosadaTests;
+			sourceTree = "<group>";
+		};
+		392CA4BC2D57C5E100581970 /* Light_JosePosadaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Light_JosePosadaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		392CA4962D57C5DF00581970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392CA4AC2D57C5E100581970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392CA4B62D57C5E100581970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		392CA4902D57C5DF00581970 = {
+			isa = PBXGroup;
+			children = (
+				392CA49B2D57C5DF00581970 /* Light_JosePosada */,
+				392CA4B22D57C5E100581970 /* Light_JosePosadaTests */,
+				392CA4BC2D57C5E100581970 /* Light_JosePosadaUITests */,
+				392CA49A2D57C5DF00581970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		392CA49A2D57C5DF00581970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				392CA4992D57C5DF00581970 /* Light_JosePosada.app */,
+				392CA4AF2D57C5E100581970 /* Light_JosePosadaTests.xctest */,
+				392CA4B92D57C5E100581970 /* Light_JosePosadaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		392CA4982D57C5DF00581970 /* Light_JosePosada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392CA4C22D57C5E100581970 /* Build configuration list for PBXNativeTarget "Light_JosePosada" */;
+			buildPhases = (
+				392CA4952D57C5DF00581970 /* Sources */,
+				392CA4962D57C5DF00581970 /* Frameworks */,
+				392CA4972D57C5DF00581970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				392CA49B2D57C5DF00581970 /* Light_JosePosada */,
+			);
+			name = Light_JosePosada;
+			packageProductDependencies = (
+			);
+			productName = Light_JosePosada;
+			productReference = 392CA4992D57C5DF00581970 /* Light_JosePosada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		392CA4AE2D57C5E100581970 /* Light_JosePosadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392CA4C72D57C5E100581970 /* Build configuration list for PBXNativeTarget "Light_JosePosadaTests" */;
+			buildPhases = (
+				392CA4AB2D57C5E100581970 /* Sources */,
+				392CA4AC2D57C5E100581970 /* Frameworks */,
+				392CA4AD2D57C5E100581970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392CA4B12D57C5E100581970 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				392CA4B22D57C5E100581970 /* Light_JosePosadaTests */,
+			);
+			name = Light_JosePosadaTests;
+			packageProductDependencies = (
+			);
+			productName = Light_JosePosadaTests;
+			productReference = 392CA4AF2D57C5E100581970 /* Light_JosePosadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		392CA4B82D57C5E100581970 /* Light_JosePosadaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392CA4CA2D57C5E100581970 /* Build configuration list for PBXNativeTarget "Light_JosePosadaUITests" */;
+			buildPhases = (
+				392CA4B52D57C5E100581970 /* Sources */,
+				392CA4B62D57C5E100581970 /* Frameworks */,
+				392CA4B72D57C5E100581970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392CA4BB2D57C5E100581970 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				392CA4BC2D57C5E100581970 /* Light_JosePosadaUITests */,
+			);
+			name = Light_JosePosadaUITests;
+			packageProductDependencies = (
+			);
+			productName = Light_JosePosadaUITests;
+			productReference = 392CA4B92D57C5E100581970 /* Light_JosePosadaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		392CA4912D57C5DF00581970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					392CA4982D57C5DF00581970 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					392CA4AE2D57C5E100581970 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 392CA4982D57C5DF00581970;
+					};
+					392CA4B82D57C5E100581970 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 392CA4982D57C5DF00581970;
+					};
+				};
+			};
+			buildConfigurationList = 392CA4942D57C5DF00581970 /* Build configuration list for PBXProject "Light_JosePosada" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 392CA4902D57C5DF00581970;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 392CA49A2D57C5DF00581970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				392CA4982D57C5DF00581970 /* Light_JosePosada */,
+				392CA4AE2D57C5E100581970 /* Light_JosePosadaTests */,
+				392CA4B82D57C5E100581970 /* Light_JosePosadaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		392CA4972D57C5DF00581970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392CA4AD2D57C5E100581970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392CA4B72D57C5E100581970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		392CA4952D57C5DF00581970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392CA4AB2D57C5E100581970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392CA4B52D57C5E100581970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		392CA4B12D57C5E100581970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392CA4982D57C5DF00581970 /* Light_JosePosada */;
+			targetProxy = 392CA4B02D57C5E100581970 /* PBXContainerItemProxy */;
+		};
+		392CA4BB2D57C5E100581970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392CA4982D57C5DF00581970 /* Light_JosePosada */;
+			targetProxy = 392CA4BA2D57C5E100581970 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		392CA4C32D57C5E100581970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Light_JosePosada/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Light-JosePosada";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		392CA4C42D57C5E100581970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Light_JosePosada/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Light-JosePosada";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		392CA4C52D57C5E100581970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		392CA4C62D57C5E100581970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		392CA4C82D57C5E100581970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Light-JosePosadaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light_JosePosada.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Light_JosePosada";
+			};
+			name = Debug;
+		};
+		392CA4C92D57C5E100581970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Light-JosePosadaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light_JosePosada.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Light_JosePosada";
+			};
+			name = Release;
+		};
+		392CA4CB2D57C5E100581970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Light-JosePosadaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Light_JosePosada;
+			};
+			name = Debug;
+		};
+		392CA4CC2D57C5E100581970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Light-JosePosadaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Light_JosePosada;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		392CA4942D57C5DF00581970 /* Build configuration list for PBXProject "Light_JosePosada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392CA4C52D57C5E100581970 /* Debug */,
+				392CA4C62D57C5E100581970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392CA4C22D57C5E100581970 /* Build configuration list for PBXNativeTarget "Light_JosePosada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392CA4C32D57C5E100581970 /* Debug */,
+				392CA4C42D57C5E100581970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392CA4C72D57C5E100581970 /* Build configuration list for PBXNativeTarget "Light_JosePosadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392CA4C82D57C5E100581970 /* Debug */,
+				392CA4C92D57C5E100581970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392CA4CA2D57C5E100581970 /* Build configuration list for PBXNativeTarget "Light_JosePosadaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392CA4CB2D57C5E100581970 /* Debug */,
+				392CA4CC2D57C5E100581970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 392CA4912D57C5DF00581970 /* Project object */;
+}
