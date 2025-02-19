@@ -6,9 +6,14 @@
 struct Rectangle {
     var width: Int
     var height: Int
-    
+        
+    var area: Int {
+        return width * height
+    }
 }
 
+let firstRectangle = Rectangle(width: 5, height: 10)
+print(firstRectangle.area)
 
 /*:
  In the `Height` struct below, height is represented in both inches and centimeters. However, if `heightInInches` is changed, `heightInCentimeters` should also adjust to match it. Add a `didSet` to each property that will check if the other property is what it should be, and if not, sets the proper value. If you set the value of the other property even though it already has the right value, you will end up with an infinite loop of each property setting the other.
@@ -16,9 +21,27 @@ struct Rectangle {
  Create an instance of `Height` and then change one of its properties. Print out the other property to ensure that it was adjusted accordingly.
  */
 struct Height {
-    var heightInInches: Double
+    var heightInInches: Double{
+        willSet{
+            print("About to set \(heightInInches) to \(newValue)")
+        }
+        didSet{
+            if heightInInches > oldValue {
+                print("Added \(heightInInches - oldValue) inches")
+            }
+        }
+    }
     
-    var heightInCentimeters: Double
+    var heightInCentimeters: Double{
+        willSet{
+            print("About to set\(heightInCentimeters) to \(newValue)")
+        }
+        didSet{
+            if heightInCentimeters > oldValue {
+                print("Added \(heightInCentimeters - oldValue) inches")
+            }
+        }
+    }
     
     init(heightInInches: Double) {
         self.heightInInches = heightInInches
@@ -30,6 +53,13 @@ struct Height {
         self.heightInInches = heightInCentimeters/2.54
     }
 }
+
+var newHeight = Height(heightInInches: 74)
+print(newHeight.heightInCentimeters)
+newHeight.heightInInches = 75
+print(newHeight.heightInCentimeters)
+
+
 
 
 
